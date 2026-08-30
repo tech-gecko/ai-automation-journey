@@ -11,3 +11,7 @@ def total_inventory_value(unit_price, product_quantity):
 
 def find_category(product):
     return product.get("category")
+
+def log(message):
+    with open("store.log", "a") as log_file:
+        log_file.write(message + "\n")

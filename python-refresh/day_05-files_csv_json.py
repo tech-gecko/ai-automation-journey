@@ -1,6 +1,9 @@
-from store_module.utils import product_status, total_inventory_value, find_category
+import csv, json
+from datetime import datetime
+from store_module.utils import product_status, total_inventory_value, find_category, log
 
-store_name = "TechGecko"
+STORE_NAME = "TechGecko"
+READER = []
 
 product1 = {
     "name": "Earbuds",
@@ -39,6 +42,14 @@ product5 = {
 
 try:
     inventory = [product1, product2, product3, product4, product5]
+    with open("inventory.csv", "w") as file:
+        fieldnames = ["name", "category", "price", "quantity"]
+        writer =csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(inventory)
+    with open("inventory.json", "w") as file:
+        json.dump(inventory, file, indent=4)
+
     in_stock_products, out_of_stock_products, low_stock_products = [], [], []
     item_sum = 0
     total_price = 0
@@ -51,18 +62,24 @@ try:
         print(f'Low-stock products: {[product["name"] for product in low_stock_products]}')
         print()
 
-        for product in inventory:
-            print(f'{product["name"]} -> {product["quantity"]}')
+        with open("inventory.csv", "r") as file:
+            reader = csv.DictReader(file)
+            for product in reader:
+                READER.append(product)
+                print(f'{product["name"]} -> {product["quantity"]}')
             
         print()
         print(f'Total items in stock: {item_sum}')
         print(f'Total expected revenue: {total_price:.2f}')
         print(f'Average revenue per item: {total_price / item_sum}')
 
-    print(f'===== {store_name.upper()} INVENTORY REPORT =====')
+    print(f'===== {STORE_NAME.upper()} INVENTORY REPORT =====')
     print()
 
-    for product in inventory:
+    with open("inventory.json", "r") as file:
+        json_inventory = json.load(file)
+
+    for product in json_inventory:
         if product["quantity"] > 3:
             in_stock_products.append(product)
         elif product["quantity"] <= 0:
@@ -84,15 +101,28 @@ try:
     store_summary()
 
 except KeyError as e:
-    print (str(e))
+    print(str(e))
+    log(f"[{datetime.now()}] {str(e)}.")
 except TypeError as e:
-    print (str(e))
+    print(str(e))
+    log(f"[{datetime.now()}] {str(e)}.")
 except ZeroDivisionError as e:
     print(f'Error encountered while dividing Total Revenue: {total_price} by Total Items in Stock: {item_sum}')
     print(str(e))
+    log(f"[{datetime.now()}] {str(e)}.")
 except Exception as e:
     print(str(e))
+    log(f"[{datetime.now()}] {str(e)}.")
 else:
-    print("No error was encountered.")
+    print()
+    print("===== DATA EXPORT SUMMARY =====")
+    print()
+    print("CSV export: Successful")
+    print("JSON export: Successful")
+    print()
+    print(f"CSV records loaded: {len(READER)}")
+    print(f"JSON records loaded: {len(json_inventory)}")
+    log(f"[{datetime.now()}] TechGecko inventory report generated successfully.")
 finally:
+    print()
     print("Program is no longer running.")
