@@ -1,0 +1,272 @@
+[
+    {
+        "title": "Essence Mascara Lash Princess",
+        "category": "beauty",
+        "price": 9.99,
+        "stock": 99,
+        "rating": 2.56,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Eyeshadow Palette with Mirror",
+        "category": "beauty",
+        "price": 19.99,
+        "stock": 34,
+        "rating": 2.86,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Powder Canister",
+        "category": "beauty",
+        "price": 14.99,
+        "stock": 89,
+        "rating": 4.64,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Red Lipstick",
+        "category": "beauty",
+        "price": 12.99,
+        "stock": 91,
+        "rating": 4.36,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Red Nail Polish",
+        "category": "beauty",
+        "price": 8.99,
+        "stock": 79,
+        "rating": 4.32,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Calvin Klein CK One",
+        "category": "fragrances",
+        "price": 49.99,
+        "stock": 29,
+        "rating": 4.37,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Chanel Coco Noir Eau De",
+        "category": "fragrances",
+        "price": 129.99,
+        "stock": 58,
+        "rating": 4.26,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Dior J'adore",
+        "category": "fragrances",
+        "price": 89.99,
+        "stock": 98,
+        "rating": 3.8,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Dolce Shine Eau de",
+        "category": "fragrances",
+        "price": 69.99,
+        "stock": 4,
+        "rating": 3.96,
+        "stock_status": "Low Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Gucci Bloom Eau de",
+        "category": "fragrances",
+        "price": 79.99,
+        "stock": 91,
+        "rating": 2.74,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Annibale Colombo Bed",
+        "category": "furniture",
+        "price": 1899.99,
+        "stock": 88,
+        "rating": 4.77,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Annibale Colombo Sofa",
+        "category": "furniture",
+        "price": 2499.99,
+        "stock": 60,
+        "rating": 3.92,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Bedside Table African Cherry",
+        "category": "furniture",
+        "price": 299.99,
+        "stock": 64,
+        "rating": 2.87,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Knoll Saarinen Executive Conference Chair",
+        "category": "furniture",
+        "price": 499.99,
+        "stock": 26,
+        "rating": 4.88,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Wooden Bathroom Sink With Mirror",
+        "category": "furniture",
+        "price": 799.99,
+        "stock": 7,
+        "rating": 3.59,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Apple",
+        "category": "groceries",
+        "price": 1.99,
+        "stock": 8,
+        "rating": 4.19,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Beef Steak",
+        "category": "groceries",
+        "price": 12.99,
+        "stock": 86,
+        "rating": 4.47,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Cat Food",
+        "category": "groceries",
+        "price": 8.99,
+        "stock": 46,
+        "rating": 3.13,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Chicken Meat",
+        "category": "groceries",
+        "price": 9.99,
+        "stock": 97,
+        "rating": 3.19,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Cooking Oil",
+        "category": "groceries",
+        "price": 4.99,
+        "stock": 10,
+        "rating": 4.8,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Cucumber",
+        "category": "groceries",
+        "price": 1.49,
+        "stock": 84,
+        "rating": 4.07,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Dog Food",
+        "category": "groceries",
+        "price": 10.99,
+        "stock": 71,
+        "rating": 4.55,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Eggs",
+        "category": "groceries",
+        "price": 2.99,
+        "stock": 9,
+        "rating": 2.53,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Fish Steak",
+        "category": "groceries",
+        "price": 14.99,
+        "stock": 74,
+        "rating": 3.78,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Green Bell Pepper",
+        "category": "groceries",
+        "price": 1.29,
+        "stock": 33,
+        "rating": 3.25,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Green Chili Pepper",
+        "category": "groceries",
+        "price": 0.99,
+        "stock": 3,
+        "rating": 3.66,
+        "stock_status": "Low Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Honey Jar",
+        "category": "groceries",
+        "price": 6.99,
+        "stock": 34,
+        "rating": 3.97,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Ice Cream",
+        "category": "groceries",
+        "price": 5.49,
+        "stock": 27,
+        "rating": 3.39,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Juice",
+        "category": "groceries",
+        "price": 3.99,
+        "stock": 50,
+        "rating": 3.94,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    },
+    {
+        "title": "Kiwi",
+        "category": "groceries",
+        "price": 2.49,
+        "stock": 99,
+        "rating": 4.93,
+        "stock_status": "In Stock",
+        "priority": "Normal"
+    }
+]
